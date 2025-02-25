@@ -1,0 +1,131 @@
+.container{
+    height: 90vh;
+    background: #464f50;
+    border-radius: 10px;
+}
+.container .top{
+    width: 100%;
+    display: flex;
+}
+
+.top .top_left{
+    width: 30%;
+    padding-right: 0.50rem;
+    border-right: 0.5px solid #e4eaf0cc;
+}
+
+
+.top_left .left_btn{
+    width: 100%;
+    border-bottom: 0.5px solid #e4eaf0cc;
+}
+
+.left_btn button:first-child{
+    width: 50%;
+    height: 50px;
+    padding: 0 0.75rem;
+    font-size: 14px;
+    font-weight: 800;
+    color: #fff;
+    border: none;
+    background: none;
+}
+.left_btn button:last-child{
+    width: 50%;
+    height: 50px;
+    background: none;
+    padding: 0 0.75rem;
+    font-size: 14px;
+    font-weight: 800;
+    color: #fff;
+    border: none;
+}
+
+.content{
+    margin-top: 8px;
+    margin-bottom: 12px;
+    padding: 12px;
+}
+
+.content .btn_col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content .btn_col button{
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background: greenyellow;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.content .btn_col span{
+    width: 100%;
+    margin-top: 4px;
+    padding: 4px 8px;
+    text-align: center;
+    background: #46765e;
+    color: #fff;
+    border-radius: 10px;
+}
+.content .btn_col span a{
+    color: #fff;
+}
+
+
+.top .top_right{
+    width: 70%;
+    padding: 0.50rem 0px;
+}
+
+
+.top_right .head{
+    padding: 0px 16px 0px 24px;
+    margin: 4px 0px 12px;
+}
+.top_right .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin: 0 8px;
+    background: #323738;
+    text-align: center;
+    color: #b3bec1;
+}
+
+.heading p{
+    font-size: 14px;
+}
+
+.section_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_box .box{
+    width: 475px;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #323738;
+    gap: 10px;
+}
+
+.bottom{
+    padding: 0 20px;
+    border-top: 0.5px solid #e4eaf0cc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
