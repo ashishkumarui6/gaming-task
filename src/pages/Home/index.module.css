@@ -47,6 +47,36 @@
     padding: 12px;
 }
 
+
+.amount_mid{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000;
+}
+
+.mid_left{
+    color: white;
+}
+
+
+.mid_right{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 4px;
+}
+
+.mid_right span{
+    border-radius: 5px;
+    padding: 6px 12px;
+    background-color: #464f50;
+
+}
+
 .content .btn_col{
     display: flex;
     align-items: center;

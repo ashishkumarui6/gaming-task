@@ -111,8 +111,32 @@ const Home = () => {
             <button onClick={handleAutoPage}>Auto</button>
           </div>
           <div className={styles.content}>
-            <div className={styles.amount_col}></div>
-            <div className={styles.min_col}></div>
+            <div className={styles.amount_col}>
+              <div>Amount</div>
+              <div className={styles.amount_mid}>
+                <div className={styles.mid_left}>icon</div>
+                <div className={styles.mid_to_mid}>
+                  <input type="text" />
+                </div>
+                <div className={styles.mid_right}>
+                  <span>1/2</span>
+                  <span>2x</span>
+                  <span>btn</span>
+                </div>
+              </div>
+              <div>
+                <span>100</span>
+                <span>100</span>
+                <span>1.0K</span>
+                <span>10.0K</span>
+              </div>
+            </div>
+            <div className={styles.min_col}>
+              <div>Mins</div>
+              <span>1</span>
+              <input type="range" />
+              <span>24</span>
+            </div>
             <div className={styles.btn_col}>
               <button>Bet</button>
               <span>
