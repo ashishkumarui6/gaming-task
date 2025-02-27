@@ -114,7 +114,7 @@ const Home = () => {
             <div className={styles.amount_col}>
               <div>Amount</div>
               <div className={styles.amount_mid}>
-                <div className={styles.mid_left}>icon</div>
+                <div className={styles.mid_left}>icons</div>
                 <div className={styles.mid_to_mid}>
                   <input type="text" />
                 </div>
